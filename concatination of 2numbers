@@ -1,0 +1,4 @@
+first_name=input("enter  first name")
+sec_name=input("enter second name")
+concadinate=first_name+sec_name
+print("your fullname is:",concadinate)
