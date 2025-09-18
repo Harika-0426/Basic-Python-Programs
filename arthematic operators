@@ -1,0 +1,15 @@
+num1=int(input("enter the number:"))
+num2=int(input("enter the number:"))
+choice=int(input("enter the operator:"))
+if(choice==1):
+    sum=num1+num2
+    print(sum)
+if(choice==2):
+    sub=num1-num2
+    print(sub)
+if(choice==3):
+    mul=num1*num2 
+    print(mul)
+if(choice==4):
+    div=num1/num2 
+    print(div)
