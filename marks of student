@@ -1,0 +1,13 @@
+mar=int(input("enter your marks:"))
+if(mar>=90):
+    print("grade A,\n excellent")
+elif(mar>=70 and mar<90):
+    print("grade B")
+    elif(mar>=50 and mar<70):
+    print("grade C")
+elif(mar>=40 and mar<50):
+print("grade D")
+elif(mar<40):
+print("fail")
+else:
+print("error")
