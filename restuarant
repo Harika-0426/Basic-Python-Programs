@@ -1,0 +1,20 @@
+print("WELCOME TO SRAVANI RESTAURANT")
+print("choose your menu,\n1.Tiffens\n2.Meals\n3.Juice items\n4.Snacks\n5.Icecream\n6.exit")
+while True:
+  choice=(input("enter your choice:"))
+  if(choice=="exit"):
+      print("thanks for visiting")
+      break
+  if (choice=="tiffen"):
+     price=60
+  if(choice=="meals"):
+      price=130
+  if(choice=="juice"):
+      price=40
+  if(choice=="snacks"):
+      price=40
+  if(choice=="icecream"): 
+      price=30
+  quantity=int(input("enter quantity:"))
+  cost=price*quantity
+  print(cost)
