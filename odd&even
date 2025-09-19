@@ -1,0 +1,7 @@
+n=int(input("enter number:"))
+print("n even numbers")
+even =n*(n+1)
+print(even)
+print("n odd numbers:")
+odd=n**2
+print(odd)
