@@ -1,0 +1,10 @@
+m=2
+n=10
+p=1
+if m>n: 
+ pass
+else:
+    for i in range(m,n+1):
+        p=p*i
+        print(p)
+        
