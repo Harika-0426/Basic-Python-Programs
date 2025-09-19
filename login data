@@ -1,0 +1,6 @@
+usern="harika"
+password=2625
+if(usern=="harika" and password==2625):
+  print("login sucessfully")
+else:
+  print("invalid login data")
